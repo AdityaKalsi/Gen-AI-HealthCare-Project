@@ -1,6 +1,7 @@
-<p><strong>*Overview*</strong></p>
-<p>&nbsp;</p> <!-- This creates a space -->
+<p style="font-size: 24px; font-weight: bold;">Overview</p>
+<p>&nbsp;</p> <!-- Adds space after the title -->
 <p>The Gen AI Hackathon project aims to utilize machine learning for healthcare by developing a web application that can detect various diseases such as asthma, cancer, diabetes, and stroke. The application provides real-time diagnosis based on predictive modeling. If a disease is detected, the user receives preventive measures and can engage in further conversation with an LLM chatbot specialized in that disease.</p>
+
 
 Features
 <sub>- Real-time disease detection using machine learning: Instantly analyzes user-provided data to identify potential diseases.
