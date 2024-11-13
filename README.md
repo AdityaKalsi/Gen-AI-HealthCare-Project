@@ -1,0 +1,2 @@
+Overview
+The Gen AI Hackathon project aims to utilize machine learning for healthcare by developing a web application that can detect various diseases such as asthma, cancer, diabetes, and stroke. The application provides real-time diagnosis based on predictive modeling. If a disease is detected, the user receives preventive measures and can engage in further conversation with a llm chatbot specialized in that disease.
