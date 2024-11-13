@@ -28,3 +28,9 @@ We have worked on both aspects of the problem statement: Disease Diagnosis and T
 - **Disease Diagnosis**: Involves identifying the disease based on information provided by the user through form-filling. A machine learning model specific to each disease is used for accurate diagnosis.
 - **Recommendation Process**: Generates a detailed report that includes causes, symptoms, medical prescriptions, and suggested lifestyle changes.
 - Additionally, there is an **LLM-based chat-doctor**, fine-tuned on a specific dataset (link mentioned below), which provides guidance on general medical-related questions.
+
+### Kaggle Datasets:
+- [Diabetes Dataset](https://www.kaggle.com/datasets/akshaydattatraykhare/diabetes-dataset)
+- Asthma Dataset ([https://www.kaggle.com/datasets/deepayanthakur/asthma-disease-prediction](https://www.kaggle.com/datasets/deepayanthakur/asthma-disease-prediction))
+- Stroke Dataset ([Insert Link Here](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset))
+- Cancer Dataset ([Insert Link Here](https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer))
