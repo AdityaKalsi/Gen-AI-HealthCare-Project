@@ -10,9 +10,11 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, GPTQConfig, Traini
 
 
 
-def generate_prompt_medical(question, context):
-    """Generates a prompt from the given question, context""
-    
+def generate_prompt_medical(question, context, answer=None):
+    """Generates a prompt from the given question, context, and answer."""
+    if answer:
+        return f"question: {question} context: {context} answer: {answer} </s>"
+    else:
         return f"question: {question} context: {context} </s>"
 
 
