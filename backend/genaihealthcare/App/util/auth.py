@@ -30,7 +30,6 @@ query_wrapper_prompt = PromptTemplate(
 bnb_config = GPTQConfig(bits=4, disable_exllama=True)
 x = "Intel/Mistral-7B-v0.1-int4-inc"
 tokenizer = AutoTokenizer.from_pretrained(x)
-tokenizer.pad_token = tokenizer.eos_token
 
 model = AutoModelForCausalLM.from_pretrained(x,
                                              quantization_config=bnb_config,
