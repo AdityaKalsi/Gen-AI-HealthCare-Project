@@ -1,7 +1,6 @@
 from peft import PeftModel
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
 import torch
-import yaml
 from sentence_transformers import SentenceTransformer
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.core import Settings
@@ -9,11 +8,6 @@ from llama_index.llms.huggingface import HuggingFaceLLM
 from llama_index.core import PromptTemplate
 from transformers import AutoModelForCausalLM, AutoTokenizer, GPTQConfig, TrainingArguments
 
-
-def load_config(CONFIG_PATH):
-    with open(CONFIG_PATH, 'r') as f:
-        config = yaml.safe_load(f)
-    return config
 
 
 def generate_prompt_medical(question, context, answer=None):
